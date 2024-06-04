@@ -45,9 +45,9 @@ class SpirographDemo extends StatefulWidget {
 }
 
 class _SpirographDemoState extends State<SpirographDemo> {
-  double _R = 100.0; // Radius of the fixed circle
-  double _r = 30.0; // Radius of the rolling circle
-  double _d = 50.0; // Distance of the point from the center of the rolling circle
+  double _R = 100.0;
+  double _r = 30.0;
+  double _d = 50.0;
 
   @override
   Widget build(BuildContext context) {
